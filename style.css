@@ -1,0 +1,718 @@
+html {
+}
+.parallax{
+    background: url('images/admission.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -15px;
+}
+
+
+.imagAdmission{
+    background: url('images/admission.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer
+{
+	margin-top:-30px;
+	padding:20px;
+}
+
+#menu-footer ul{
+  margin-top: 20px;
+  margin: 10px 0 22px;
+    padding: 0;
+    cursor: pointer;
+}
+#menu-footer li{
+  display: inline-block;
+  color: white;
+  border-right: 1px solid #979797;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#menu-footer li:hover
+{
+	color:green;
+}
+
+.icons1 i{
+  background-origin: padding-box;
+  border: 0px solid;
+  border-radius: 20px;
+  padding: 5px;
+  
+}
+.icons1 i:hover{
+  transform: rotate3d(2,1,2,20deg);
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.icons1{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+/* This marks the start of the horizontal menu styling*/
+.horizontal-menu
+{
+	width:100%;
+	padding:0;
+	background-color:#1C9846;
+}
+.horizontal-menu ul
+{
+	list-style-type:none;
+	text-align:center;
+}
+.horizontal-menu li
+{
+	display:inline-block;
+}
+
+.horizontal-menu-footer
+{
+	margin-top:-px;
+	padding:0;
+	background-color:black;
+}
+.horizontal-menu-footer ul
+{
+	list-style-type:none;
+	text-align:center;
+}
+.horizontal-menu-footer li
+{
+	display:inline-block;
+}
+
+.breadcrumb{
+  list-style-type: none;
+  display: inline-block;
+  margin:0;
+}
+.breadcrumb li{
+  font-weight: 700;
+}
+.breadcrumb i{
+  color: #008CBA;
+}
+.about h2{
+    color:#0A6FB1;
+    margin-left: 15px;
+}
+.about p{
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 15px;
+}
+#second{
+  font-size: 19px;
+  font-weight: 500;
+  color: #565656;
+}
+.offers{
+  list-style-type: none;
+  display: inline-block;
+  margin-left:-15px;
+    text-decoration: none;
+}
+.offers2{
+  list-style-type: none;
+    margin-left:-15px;
+  display: inline-block;
+    text-decoration: none;
+}
+
+.offers li {
+  background: url('images/great.png');
+    text-decoration: none;
+    color: #252525;
+    font: 500 14px/28px Roboto,sans-serif;
+}
+.offers img{
+  height:20px;
+  width: 20px;
+  margin-right: 10px;
+  
+}
+.offers2 li {
+  background: url('images/great.png');
+    text-decoration: none;
+    color: #252525;
+    font: 500 14px/28px Roboto,sans-serif;
+}
+.offers2 img{
+  height:20px;
+  width: 20px;
+  margin-right: 10px;
+  
+}
+.testimonials{
+  margin-left: 20px;
+}
+.testimonials h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.horizontal-menu a
+{
+	margin-right:-4px;
+	display:block;
+	color:#FFFFFF;
+	text-align:center;
+	padding:1em 0;
+	font-family:helvetica;
+	font-size:14px;
+	text-decoration:none;
+	border-right: 1px solid white;
+	width:130px;
+}
+.horizontal-menu a:hover
+{
+	text-decoration:none;
+	color:white;
+	background-color:#63C57A;
+}
+
+
+/* This marks the end of the horizontal menu styling*/
+.icons i{
+    background-origin: padding-box;
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+.icons i:hover{
+    transform: rotate3d(2,1,2,20deg);
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	
+}
+.icons{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#address{
+    font-size: 19px;
+}
+.botoom-content{
+    background-color: black !important;
+}
+#footerbtn{
+  margin-left: 400px;
+}
+.footer p{
+  color: white;
+  margin-left: 30px;
+}
+.footer{
+    position: relative;
+    background: black;
+    
+}
+.footer img{
+  margin-left: 480px;
+}
+.footer h2{
+    color: white;
+}
+.second-bar:hover{
+    display: inline-block;
+    opacity: 10;
+    border-bottom:3px solid #70C052 ;
+    transition: 0.5s;
+}
+.footer-content{
+    color: #ffffff;
+    position: relative;
+}
+.footer-content > p{
+    color: #ffffff;
+    position: relative;
+    display: none;
+}
+.footer-content> h6 {
+    margin-bottom: 14px;
+}
+.footer-content> h6:hover + p{
+     display: block;
+     font-size: 13px;
+     font-family: helvetica;
+}
+.footer-content> h6:hover{
+    border-bottom:2px solid #0A6FB1;
+    width: 3.5%;
+    color: #0A6FB1;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+/*style for admission page*/
+.middle-container
+{
+	background-color:#f2f2f2;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -20%);
+}
+
+
+.square{
+	padding:5px;
+	margin:5px;
+	background-color: grey;
+	opacity: 0.5;
+}
+
+.titleAdmission{
+	color: white;	
+	font-family:helvetica;
+	font-size:40px;
+	font-weight: bold;		
+}
+
+.button1 {
+  background-color: #1C9846;
+  color: white;
+  border: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family:helvetica;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;	
+}
+
+.button2 {
+  background-color: #008CBA;
+  color: white;
+  border: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family:helvetica;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;	
+  
+}
+
+/*contact form*/
+h3,h1,h2{color: #1C9846;
+	font-weight: bold;}
+	
+h5{color:#008CBA}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containerF {
+
+  background-color: #D3D3D3;
+  padding: 20px;
+}
+
+.containerF2 {
+
+  background-color: black;
+  padding: 40px;
+  margin-left:300px;
+  height:100px;
+  float:left;
+}
+
+.contact{
+	background-color: #4d4d4d;
+	padding: 20px;
+	
+}
+
+.containerchk .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+aside {
+       width:25%;
+       float:left;
+}
+
+#form{
+  margin-left: 50px;
+}
+
+.main{
+	width:75%;
+	margin-left:360px;
+	padding:16px;
+	height:1650px;
+	background-color: #f2f2f2;
+}
+.main h1,p,ul,h5,.call-nw
+{
+margin-left:90px;
+}
+.main-aboutus
+{
+	width:75%;
+	margin-left:360px;
+	padding:16px;
+	height:1650px;
+	background-color: #f2f2f2;
+}
+.call-nw{
+	font-size: 20px;
+	
+}
+.innerinfo{
+  margin-top: 20px;
+  margin-left: 80px;
+  background: #434444;
+  width: 300px;
+}
+.innerinfo a{
+  color: #179D60;
+}
+.innerinfo img{
+  margin-top: 30px;
+ 
+}
+.innerinfo p{
+  margin: 15px 0 20px;
+    font: 300 14px/22px ;
+    color: #8F8F8F;
+  
+}
+
+.innerinfo{
+  margin-left: 80px;
+  background: #434444;
+}
+.main-body1{
+  background: black;
+  height:400px;
+}
+.main-body1 h3{
+  
+  color: #45a049;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.form1 form{
+  display: inline-block;
+  padding-left: 200px;
+}
+.mainbody2{
+  height:150px;
+  width: 100%;
+  background-color: #0A6FB1;
+  line-height: 5px;
+}
+.mainbody2 ul{
+  margin-top: 20px;
+  display: inline-block;
+}
+.steps li{
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  padding: 0 0 0 28px;
+  margin-top: 20px;
+  color: #fff;
+  font: 700 19px Roboto,sans-serif;
+   
+    float: left;
+}
+.steps i{
+  transition: 0 !important;
+  background: #2fac40;
+  color: #fff;
+ margin-right: 3px;
+   
+    float: left;
+   
+    
+    
+}
+.steps i:hover{
+  transition: 0 !important;
+  background: black;
+  color: #fff;
+ 
+  cursor: pointer;   
+    float: left;
+   
+    
+    
+}
+.list1{
+  font-size: 20px !important;
+  padding-bottom: 20px !important;
+  color: #fff;
+    font-size: 14px; 
+    font-weight: 500; 
+    text-decoration: none;
+}
+.steps h4{
+  color: #f2f2f2;
+  
+}
+
+
+
+
+.Containeradmitsteps 
+{
+background-color:#0A6FB1;
+}
+
+.Containeradmitsteps h5
+{
+	text-align:center;
+	color:white;
+	border-bottom: 2px solid yellow;
+	margin-left:25px;
+	margin-right:25px;
+	padding:10px;
+}
+
+.Containeradmitsteps ol
+{
+list-style-type:1;	
+color:white;
+}
+.Containeradmitsteps li
+{
+border-bottom:1px solid #65A5CE;
+margin-right:35px;
+padding:5px;
+}
+.Containeradmitsteps ol li a
+{
+color:white;	
+text-decoration:none;
+}
+.Containeradmitsteps a:hover
+{
+color:#FCD454;
+}
+.Containertestimonials
+{
+background-color:white;
+}
+.Containertestimonials h5
+{
+	color:#0A6FB1;
+}
+					/*This is start of testimonial*/
+.testimonials-container {
+    background-color: white;
+    color: black;
+    font-family: 'helvetica';
+	font-size: 15px;
+    margin: 20px auto;
+    max-width: 750px;
+	margin-top: -15px;
+	padding: 30px 50px;
+}
+
+.testimonial {
+    line-height: 20px;
+    text-align: justify;
+}
+
+.centered-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+				/*This is end of testimonial*/
+/* End Style for admission goto aside menu */
+
+
+/* Start of horizontal testimonial*/
+
+
+
+.testimonial-slider {
+
+   display: block;
+   width: 100%;
+   height: auto;
+margin:0 auto;
+   background-color: white;
+  padding: 50px 30px;
+  text-align: center;
+  color: #fff;
+  font: normal normal 24px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+}
+.testimonial-slider h1 {
+	font-weight:bold;
+	color:#5080B1;
+  margin: 0 auto 2em;
+  text-align:center;
+}
+
+.testimonial-slider ul.slider {
+   display: block;
+   list-style: none;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+   margin: 0 auto;
+}
+
+.testimonial-slider ul.slider li {
+    position: absolute;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    margin: 0 auto;
+}
+.testimonial-slider ul.slider li:nth-child(1) {
+    opacity: 1;
+
+    -webkit-animation: fade-animation-1 25s infinite;
+            animation: fade-animation-1 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(2) {
+    -webkit-animation: fade-animation-2 25s infinite;
+            animation: fade-animation-2 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(3) {
+    -webkit-animation: fade-animation-3 25s infinite;
+            animation: fade-animation-3 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(4) {
+    -webkit-animation: fade-animation-4 25s infinite;
+            animation: fade-animation-4 25s infinite;
+}
+
+.testimonial-slider q {
+   display: inline-block;
+   color:black;
+   font: normal 700 20px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+   letter-spacing: .5pt;
+   max-width: 100ch;
+}
+
+.testimonial-slider .source {
+    margin-top: 25px;
+	text-align:center;
+    color: #1E7CB1;
+    font: italic 400 30px / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/* KEYFRAME DECLARATIONS */
+@keyframes fade-animation-1 {
+    0%, 25%, 100% {
+        opacity:0
+    }
+    3%, 22% {
+        opacity: 1;
+    }
+}
+@keyframes fade-animation-2 {
+    0%, 25%, 50%, 100% {
+        opacity:0
+    }
+    28%, 47% {
+        opacity: 1;
+    }
+}
+@keyframes fade-animation-3 {
+    0%, 50%, 75%, 100% {
+        opacity:0
+    }
+    53%, 72% {
+        opacity: 1;
+    }
+}
+@keyframes fade-animation-4 {
+    0%, 75%, 100% {
+        opacity:0
+    }
+    78%, 97% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-animation-1 {
+    0%, 25%, 100% {
+        opacity:0
+    }
+    3%, 22% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fade-animation-2 {
+    0%, 25%, 50%, 100% {
+        opacity:0
+    }
+    28%, 47% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fade-animation-3 {
+    0%, 50%, 75%, 100% {
+        opacity:0
+    }
+    53%, 72% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fade-animation-4 {
+    0%, 75%, 100% {
+        opacity:0
+    }
+    78%, 97% {
+        opacity: 1;
+    }
+}
