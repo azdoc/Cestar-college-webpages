@@ -1,0 +1,142 @@
+
+
+
+//Mobile Menu
+$(".mnav").clone().appendTo(".mob-menu");
+
+var winHeight = $(window).height();
+$('.mob-menu').height(winHeight);
+
+$(window).resize(function() {
+    $('.mob-menu').height(winHeight);
+});
+
+//Mobile Menu Toggle
+function toggleMenu() {
+    var menu = $('.mob-btn');
+    if (menu.hasClass('open')) {
+
+        menu.removeClass('open');
+        $('body').removeClass('show-menu');
+
+    } else {
+        menu.addClass('open');
+        $('body').addClass('show-menu');
+    }
+}
+$('.mob-btn').click(toggleMenu);
+$('.ovrlay').click(toggleMenu);
+
+
+$('ul.mnav li:has(ul)').addClass('submenu');
+$('ul.mnav li:has(ul)').append( "<i></i>" );
+
+$('ul.mnav i').click(function(){
+ $(this).parent('li').toggleClass('open');
+})
+
+//Slim header
+
+jQuery(document).ready(function(){
+jQuery(window).bind('scroll', function() {
+var navHeight = jQuery( window ).height();
+if (jQuery
+(window).scrollTop() > 80) {
+jQuery('header').addClass('slim-header');
+}
+else {
+jQuery('header').removeClass('slim-header');
+}
+});
+});
+
+
+
+//Placeholder
+$('input, textarea').placeholder();
+
+//Main Slider
+$('.flexslider').flexslider({
+    animation: "slide",
+    directionNav: false,
+    pauseOnHover: true,
+    slideshowSpeed:6000,
+    animationSpeed: 2000,   
+    manualControls: ".flex-control-nav .slide-thumb"
+});
+
+
+
+$('.side-slide').flexslider({
+    animation: "slide",
+    controlNav: false
+});
+
+
+//Side Menu
+$('ul.sidenav li:has(ul)').append( "<i>+</i>" );
+$('ul.sidenav i').click(function()
+{   $(this).parent('li').children('ul').slideToggle(); 
+      $(this).text(function(i, text){
+          return text === "+" ? "-" : "+";
+      })
+})
+
+
+
+$(document).ready(function(){
+  $('.home-testi-slider').bxSlider({
+    pager:false,
+    auto:true,
+    speed:1000,
+    pause:7000
+  });
+});
+
+
+$(document).ready(function(){
+  $('.sidebar-testi-slider').bxSlider({
+    pager:false,
+    auto:true,
+    speed:1000,
+    pause:7000
+  });
+});
+
+
+
+var wow = new WOW({
+    offset: 250,
+    mobile: false
+});
+wow.init();
+
+//top button
+
+jQuery(document).ready(function(){
+
+  // hide #back-top first
+  jQuery("#back-top").hide();
+  
+  // fade in #back-top
+  jQuery(function () {
+    jQuery(window).scroll(function () {
+      if (jQuery(this).scrollTop() > 100) {
+        jQuery('#back-top').fadeIn();
+      } else {
+        jQuery('#back-top').fadeOut();
+      }
+    });
+
+    // scroll body to 0px on click
+    jQuery('#back-top a').click(function () {
+      jQuery('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
+
+});
+
+
